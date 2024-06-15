@@ -51,6 +51,7 @@ const App = () => {
     setSelect(" ");
     setCurrent(img1);
     setNotice(" ");
+    setAlert(" ");
   }
   return (
     <div>
