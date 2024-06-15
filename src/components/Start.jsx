@@ -13,7 +13,7 @@ display:grid;
 justify-content:center;
 align-items:center;
 grid-template-columns:5rem 4fr 5rem;
-padding:100px;
+
 height:100vh;
 
 .main{
@@ -67,20 +67,24 @@ height:100vh;
 }
 @media (max-width:1100px) {
     .heading h1{
-    font-size:56px;  
+    font-size:46px;  
+}
 }
 @media (max-width:600px){
-    &{
-        padding:10px;
-    }
-    .main{
-    grid-row:2/3;
+   
+   .main{
+   
     display:flex;
     flex-direction:column;
     width:100%;
+    position:absolute;
+   
+   }
+   .heading h1{
+    font-size:26px;  
 }
 }
-}
+
 `;
 
 const Start = () => {
