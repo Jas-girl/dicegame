@@ -73,7 +73,7 @@ height:100vh;
 @media (max-width:600px){
    
    .main{
-   
+    padding:20%;
     display:flex;
     flex-direction:column;
     width:100%;
@@ -92,7 +92,7 @@ const Start = () => {
         <div><Section className="container">
             <div className="main">
                 <DiceImage>
-                    <img src="/images/dice.svg" alt="dice-img"></img>
+                    <img src="/images/dice.svg" alt="dice-img" ></img>
                 </DiceImage>
                 <div className="heading">
                     <h1>DICE GAME</h1>

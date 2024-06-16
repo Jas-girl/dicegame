@@ -36,7 +36,7 @@ const App = () => {
       else if (select === randomIndex + 1) {
       setCounted((prevCount) => prevCount + randomIndex+1);
         setNotice(" ");
-        setAlert(`You win! Your score: ${counted + randomIndex + 1}`);
+        setAlert(`You win! Your score: ${select + randomIndex + 1}`);
         
        
       }
@@ -53,6 +53,7 @@ const App = () => {
     setNotice(" ");
     setAlert(" ");
   }
+
   return (
     <div>
       <Router>
